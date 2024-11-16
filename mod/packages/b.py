@@ -1,5 +1,8 @@
-# import a as lib # Так не работает
-# import packages.a as lib # Так работает
+# Так не работает:
+import a as lib 
+
+# Так работает:
+# import packages.a as lib 
 
 def bar():
     print(lib.foo())
